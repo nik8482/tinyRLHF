@@ -1,0 +1,16 @@
+[project]
+name = "tinyrlhf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.13.0",
+    "datasets>=4.8.4",
+    "jupyter>=1.1.1",
+    "lab>=8.9",
+    "torch>=2.11.0",
+    "transformers>=5.4.0",
+    "trl>=0.29.1",
+    "wandb>=0.25.1",
+]
